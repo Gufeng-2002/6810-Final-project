@@ -1,0 +1,56 @@
+\documentclass[12pt]{article}
+% \usepackage{setspace}         % For line spacing if needed
+
+\input{settings/packages.tex}
+
+\begin{document}
+\begin{center}
+    \begin{tabular}{lclc}
+    \toprule
+    \textbf{Dep. Variable:}                    & Desired\_Savings & \textbf{  R-squared:         } &     0.819   \\
+    \textbf{Model:}                            &       OLS        & \textbf{  Adj. R-squared:    } &     0.817   \\
+    \textbf{Method:}                           &  Least Squares   & \textbf{  F-statistic:       } &     429.3   \\
+    \textbf{Date:}                             & Fri, 06 Dec 2024 & \textbf{  Prob (F-statistic):} &     0.00    \\
+    \textbf{Time:}                             &     23:27:20     & \textbf{  Log-Likelihood:    } &   -12115.   \\
+    \textbf{No. Observations:}                 &        1440      & \textbf{  AIC:               } & 2.426e+04   \\
+    \textbf{Df Residuals:}                     &        1424      & \textbf{  BIC:               } & 2.435e+04   \\
+    \textbf{Df Model:}                         &          15      & \textbf{                     } &             \\
+    \textbf{Covariance Type:}                  &    nonrobust     & \textbf{                     } &             \\
+    \bottomrule
+    \end{tabular}
+    \begin{tabular}{lcccccc}
+                                               & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+    \midrule
+    \textbf{Occupation\_Retired}               &      49.1597  &       82.202     &     0.598  &         0.550        &     -112.091    &      210.411     \\
+    \textbf{Occupation\_Self\_Employed}        &      39.9587  &       80.539     &     0.496  &         0.620        &     -118.029    &      197.946     \\
+    \textbf{Occupation\_Student}               &     148.3775  &       81.636     &     1.818  &         0.069        &      -11.762    &      308.517     \\
+    \textbf{City\_Tier\_Tier\_2}               &     271.6385  &       66.459     &     4.087  &         0.000        &      141.270    &      402.007     \\
+    \textbf{City\_Tier\_Tier\_3}               &     364.2466  &       83.516     &     4.361  &         0.000        &      200.418    &      528.075     \\
+    \textbf{Education}                         &     -34.0779  &       20.454     &    -1.666  &         0.096        &      -74.202    &        6.046     \\
+    \textbf{Desired\_Savings\_Percentage}      &    4806.0306  &      133.873     &    35.900  &         0.000        &     4543.421    &     5068.640     \\
+    \textbf{Potential\_Savings\_Groceries}     &     394.2543  &       54.804     &     7.194  &         0.000        &      286.749    &      501.760     \\
+    \textbf{Potential\_Savings\_Transport}     &     394.3063  &       53.345     &     7.392  &         0.000        &      289.662    &      498.950     \\
+    \textbf{Potential\_Savings\_Eating\_Out}   &     305.1335  &       51.233     &     5.956  &         0.000        &      204.633    &      405.634     \\
+    \textbf{Potential\_Savings\_Entertainment} &     266.9913  &       50.883     &     5.247  &         0.000        &      167.177    &      366.806     \\
+    \textbf{Potential\_Savings\_Utilities}     &     427.2711  &       53.494     &     7.987  &         0.000        &      322.335    &      532.207     \\
+    \textbf{Potential\_Savings\_Healthcare}    &     120.9878  &       34.061     &     3.552  &         0.000        &       54.172    &      187.803     \\
+    \textbf{Potential\_Savings\_Education}     &      44.1895  &       37.230     &     1.187  &         0.235        &      -28.842    &      117.221     \\
+    \textbf{Potential\_Savings\_Miscellaneous} &     324.3855  &       50.015     &     6.486  &         0.000        &      226.275    &      422.496     \\
+    \textbf{Intercept}                         &   -1.972e+04  &      321.915     &   -61.274  &         0.000        &    -2.04e+04    &    -1.91e+04     \\
+    \bottomrule
+    \end{tabular}
+    \begin{tabular}{lclc}
+    \textbf{Omnibus:}       & 232.688 & \textbf{  Durbin-Watson:     } &    2.078  \\
+    \textbf{Prob(Omnibus):} &   0.000 & \textbf{  Jarque-Bera (JB):  } & 1493.629  \\
+    \textbf{Skew:}          &  -0.580 & \textbf{  Prob(JB):          } &     0.00  \\
+    \textbf{Kurtosis:}      &   7.852 & \textbf{  Cond. No.          } &     177.  \\
+    \bottomrule
+    \end{tabular}
+    %\caption{OLS Regression Results}
+    \end{center}
+    
+    Notes: \newline
+     [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+\end{document}
