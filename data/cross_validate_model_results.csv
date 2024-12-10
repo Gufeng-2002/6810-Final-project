@@ -1,0 +1,11 @@
+,Model,Mean_Test_MSE,Mean_Test_RMSE,Mean_Test_R2,Mean_Test_Log-Lik
+0,LinearRegression,0.0758,0.2753,0.9241,-164.7811
+1,Ridge,0.0758,0.2753,0.9241,-164.7792
+2,ElasticNet,0.5742,0.7576,0.4257,-1460.3179
+3,Lasso,1.0003,1.0001,-0.0008,-1815.7545
+4,DecisionTreeRegressor,0.0874,0.2953,0.9126,-253.0692
+5,SVR,0.0386,0.1964,0.9614,268.898
+6,RandomForestRegressor,0.0406,0.2014,0.9594,235.9795
+7,GradientBoostingRegressor,0.0445,0.2109,0.9555,177.0205
+8,AdaBoostRegressor,0.0747,0.2734,0.9252,-137.847
+9,KNeighborsRegressor,0.0687,0.2621,0.9312,-91.426
